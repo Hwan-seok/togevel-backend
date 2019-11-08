@@ -7,10 +7,10 @@ router.get("/", function(req, res, next) {
         result: "success"
     });
 });
-router.get("/gotoTomorrow",()=>{
+router.get("/gotoTomorrow", () => {
     res.status(200).json({
-        result:"success"
-    })
-})
+        result: "내일로 사진"
+    });
+});
 
 module.exports = router;
