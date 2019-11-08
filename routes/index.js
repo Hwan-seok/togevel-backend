@@ -8,7 +8,9 @@ router.get("/", function(req, res, next) {
     });
 });
 router.get("/gotoTomorrow",()=>{
-    
+    res.status(200).json({
+        result:"success"
+    })
 })
 
 module.exports = router;
